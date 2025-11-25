@@ -7,7 +7,7 @@ Main method:
 1. extract valence, arousal, dominance(vad) from audio by wav2vec2 model
 2. standardize per speaker vad by z-score
 3. build relation on first dataset (the second set has this column)
-4. cluster_vad_profiles
+4. cluster_vad_profiles (k_means)
 5. compute_enrichment(lift =  P(strategy|cluster)/P(strategy)) and permutation pvals for lift
 6. plot heatmap
 
